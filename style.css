@@ -9,15 +9,21 @@ header {
     font-weight: bold;
 }
 
+.lg-header {
+    font-size: 2em;
+}
+
 
 #navbar {
     position: sticky;
+    float: left;
     top: 0;
     width: 20%;
 }
 
 #main-doc {
-    width: auto;
+    width: 75%;
+    margin-left: 25%;
     
     
 }
@@ -29,7 +35,7 @@ header {
     padding: 1em;
 }
 
-ul {
+.nav-ul {
     padding: 0;
 }
 
