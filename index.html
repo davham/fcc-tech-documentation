@@ -1,54 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zorki - Technical Documentation</title>
-    
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<html>
+  <head>
+      <title>Choosing film for your camera</title>
+      <link rel="stylesheet" href="style.css">
+      
+  </head>
+  <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<div class="container">
+    <nav id="navbar">
+        <header>Choosing film for your camera</header>
+        <ul>
+        <li class="nav-li"><a href="#understanding_the_main_types_of_film" class="nav-link ">Understanding the main types of film</a></li>
+        <li class="nav-li"><a href="#consider_your_processing_options" class="nav-link ">Consider your processing options</a></li>
+        <li class="nav-li"><a href="#decide_how_much_exposure_latitude_you_want" class="nav-link">Decide how much exposure latitude you want</a></li>
+        <li class="nav-li"><a href="#choose_a_film_speed" class="nav-link">Choose a film speed</a></l>
+        <li class="nav-li"><a href="#select_a_film_based_on_your_color_preference" class="nav-link">Select a film based on your color preference</a></li>
+        <li class="nav-li"><a href="#experiment_with_different_films" class="nav-link">Experiment with different films</a></li>
+        </ul>
+    </nav>
     <main id="main-doc">
-        <section class="main-section" id="camera_parts">
-            <header><h2>Camera Parts</h2></header>
+      <section class="main-section" id="understanding_the_main_types_of_film">
+        <header>Understanding the main types of film</header>
             <p>
-
+                Before purchasing new film, it will be helpful to know the differences between the three main film types. Many people are only familiar with the first of these, but the other two have their place in photography (perhaps more so)
             </p>
-            <p></p>
-            <code></code>
-        </section>
-        <section class="main-section" id="loading_film">
-            <header><h2>Loading Film</h2></header>
-            <p></p>
-            <p></p>
-            <code></code>
-           <li></li>
-           <li></li>
-           <li></li>
-           <li></li>
-           <li></li>
-        </section>
-        <section class="main-section" id="set_aperture_and_shutter_speed">
-            <header><h2>Set Aperture and Shutter Speed</h2></header>
-            <p></p>
-            <p></p>
-            <code></code>
-        </section>
-        <section class="main-section" id="focusing_a_rangefinder">
-            <header><h2>Focusing A Rangefinder</h2></header>
-            <p></p>
-            <p></p>
-            <code></code>
-        </section>
-        <section class="main-section" id="unloading_film">
-            <header><h2>Unloading Film</h2></header>
-            <p></p>
-            <p></p>
-            <code></code>
-        </section>
-    </main>
+            <ul>
+                <li>
+                    <p>
+                        Color negative film, also called print film, is what most people are familiar with; the stuff you can still buy almost anywhere (and what non-specialists will generally assume you want if you ask for "film"). The image you see on a developed negative is orange-tinted, and the colors are inverted. The process used to develop these is called C-41, and so these are sometimes called "C-41 films".
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Slide film, more properly called reversal film, gives a positive image; in other words, when you look through it, it looks like a photograph. Nearly all slide films today use the E-6 process, which is a completely different process to that used for negative films.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Traditional black-and-white films are usually negative films, but (you guessed it) they're black-and-white. These, again, use a very different process (albeit a much simpler one) to all the other types of film
+                    </p>
+                </li>
+            </ul>
+            <code>
+                let string="These code blocks"
+            </code>
+      </section>
+      <section class="main-section" id="consider_your_processing_options"> <header>Consider your processing options</header>
+      
+        <p>
+            Knowing where you can develop your film is important. After all, you don't want to buy film that needs to be sent to a lab if you want more instantaneous results.
+        </p>
+        <ul>
+            <li>
+                <p>
+                    Color negative films can be developed almost anywhere for very little expense; if you're not living in some Nowheresville with a population of you and your dog, you probably have a place nearby capable of developing them. If you're weird, don't mind messing up a lot of films and enjoy dealing with a lot of unpleasant and dangerous chemicals, you can even develop it yourself.
+                </p>
+            </li>
+            <li>
+                <p>
+                    E-6 slide films and traditional black-and-white films normally need to be sent off to a professional lab for developing. Most large cities will have a lab of this kind; smaller labs will often be willing to handle this for you. On the other hand, you can develop traditional black and white films yourself without a great deal of expense, and with much less unpleasantness than you'd encounter with color negative film.
+                </p>
+            </li>
+        </ul>
+        <code>
+            let string="are here"
+        </code>
+      </section>
+      <section class="main-section" id="decide_how_much_exposure_latitude_you_want"> <header>Decide how much exposure latitude you want</header>
+        <p>
+            Exposure latitude is the degree to which a film can tolerate this and still return acceptable results. Metering errors and bad technique will cause your photos to be under- or over-exposed.
+        </p>
+        <ul>
+            <li>
+                <p>
+                    Slide film has almost no tolerance to either; if you're going to shoot slide film, it's a very good idea to shoot a test roll or two first.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Unless you want an unusual effect for artistic purposes, don't bother with slide film in a camera without manual settings or electronics; its one-size-fits-all settings will often give poor results
+                </p>
+            </li>
+            <li>
+                <p>
+                    Color negatives can tolerate huge amounts of over-exposure and usually a stop of underexposure; it's not a bad idea at all to shoot them at a stop over their rated speed all the time
+                </p>
+            </li>
+            <li>
+                <p>
+                    Traditional black-and-white film also has a huge exposure latitude; any error in exposure can be corrected during developing or printing
+                </p>
+            </li>
+        </ul>
+        <code>
+            let string="only to satisfy"
+        </code>
+      </section>
+      <section class="main-section" id="choose_a_film_speed"> <header>Choose a film speed</header>
+        <p>
+            The film speed is usually given according to its ASA (also known as ISO) speed index. This will be a number like 50, 100, 200, etc. The higher the number, the more sensitive the film is to light. More and less sensitive films are called "faster" and "slower", respectively. As usual, there's no one right film, but a trade-off.
+        </p>
+        <ul>
+            <li>
+                <p>
+                    Faster films allow you to capture a subject in worse light. The trade-off is that you end up getting more grain in your pictures (think digital camera noise, but far less ugly). Some people might say that it's not worth bothering with the extremely fast (ASA 1600 upwards) films; if you need extremely fast shutter speeds for sports (for example), just shoot a good digital SLR, which will give great results at these fast speeds. On the other hand, photography is an art, not a science. Film grain can look awesome on black-and-white photographs.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Slower films typically have less grain but require longer shutter speeds. This isn't a problem for landscapes in daytime through to sunset, but it does become a problem indoors, or shooting things that move quickly. Don't worry about any of this too much: if you want easy snapshots, go for ASA 200, 400 or 800 film; if you're shooting in daylight or can control your lighting, shoot the slowest film that you like the look of.
 
-</body>
+                </p>
+            </li>
+        </ul>
+        <code>
+            let string="the test suite"
+        </code>
+      </section>
+      <section class="main-section" id="select_a_film_based_on_your_color_preference"> <header>Select a film based on your color preference</header>
+        <p>
+            Decide what colors you like and choose a film accordingly. This will depend on your subject. For example, super-saturated films like Velvia might be great for landscapes, but terrible for lighter-skinned people. Subtle colors or black-and-white is often much better for this sort of thing. But again, remember, art, where using the "wrong" film in a certain situation often looks better than doing the technically "right" thing.
+        </p>
+        <p>
+            If you're shooting a negative film, the colors you will get will depend far on how they are printed or scanned than on the film itself, since there is no standard way to represent colors on film. Unlike with slides, there is no such thing as printing or scanning without corrections, because all inverted color negatives have to be color-corrected to remove the base tint of the film. Which isn't to say that they can't look superb; they can, and often do, especially for photos of people. Just don't be surprised if you get unsatisfactory results, or very different results from film to film.
+        </p>
+        <code>
+            let string="And that's five"
+        </code>
+        </section>          
+        <section class="main-section" id="experiment_with_different_films"> <header>Experiment with different films</header>
+            <p>
+                The best way to decide on a film type is to go try some films. None of this technical trivia is the same thing as art. There's no substitute for playing with film and seeing if you like the results.
+            </p>
+            <p>
+                Unless you take many, many pictures, have a fancy professional-type camera with interchangeable film-holding backs, or keep multiple cameras on hand, you may often have to choose a film good for a variety of conditions. In this case, choose a print film (for increased tolerance of bad exposure), in color (you can always lose the color in a computer later if you like), with high speed
+            </p>
+            
+              </section>          
+      
+    </main>
+    </div>
+  </body>
 </html>
